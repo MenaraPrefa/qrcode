@@ -31,4 +31,4 @@ setTimeout(function () {
   function closeDetail() {
     document.getElementById('detail').classList.remove('show-detail');
   }
-}, 1000);
+}, 3000);
