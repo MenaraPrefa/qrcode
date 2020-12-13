@@ -1,5 +1,6 @@
-document.getElementById('bg').classList.add('close');
+
 setTimeout(function () {
+  document.getElementById('bg').classList.add('close');
   //   document.getElementById('bg').classList.add('close');
   var scanner = new Instascan.Scanner({
     video: document.getElementById('preview'),
